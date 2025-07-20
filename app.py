@@ -446,13 +446,13 @@ def create_market_vision():
             gridcolor='rgba(255,255,255,0.1)',
             showgrid=True,
             title='Market Size (Millions of Users)',
-            titlefont=dict(size=14)
+            font=dict(size=14)
         ),
         yaxis=dict(
             gridcolor='rgba(255,255,255,0.1)',
             showgrid=True,
             title='Annual Growth Rate (%)',
-            titlefont=dict(size=14)
+            font=dict(size=14)
         ),
         height=500,
         margin=dict(t=20, b=20, l=20, r=20)
